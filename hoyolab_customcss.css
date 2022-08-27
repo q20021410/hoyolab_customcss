@@ -1,0 +1,79 @@
+/* ==UserStyle==
+@name           구름
+@namespace      https://github.com/q20021410/hoyolab_customcss
+@version        1.0.0
+@description    Modify the output ratio of the Hoyolab screen.
+@author         https://clsw.kr
+
+==/UserStyle== */
+@-moz-document url-prefix("https://act.hoyolab.com/app/community-game-records-sea/index.html") {
+    
+    /* 홈페이지 비율 수정 */
+    body > div.pc-root-layout > div:nth-child(3) > div {
+        max-width: 1500px;
+    }
+
+    /* 캐릭터 보유 항목 위치 수정 */    
+    #pc-ys-layout > div.pc-swiper-block-layout.swiper-block > div.pc-swiper-block-layout__content > div.container {
+        width: 700px;
+    }
+    /* 캐릭터 착용 장비/성유물 위치 수정 */   
+    #pc-ys-layout > div.world-exploration-block.world-block > div.world-exploration > div > div.swiper-container.swiper.swiper-container-initialized.swiper-container-horizontal > div > div.swiper-slide.swiper-slide-active {
+        max-width: 250px;
+    }
+
+    #challenges > div.abyss-block > div.container > div > div > div.van-tabs__content.van-tabs__content--animated {
+        width: 1200px;
+    }
+    
+    /* 월드 탐사도 배너 위치 수정 */
+    #pc-ys-layout > div.world-exploration-block.world-block > div.world-exploration > div > div.swiper-container.swiper.swiper-container-initialized.swiper-container-horizontal > div > div.swiper-slide.swiper-slide-active {
+        max-width: 220px;
+    }
+    #pc-ys-layout > div.world-exploration-block.world-block > div.world-exploration > div > div.swiper-container.swiper.swiper-container-initialized.swiper-container-horizontal > div > div.swiper-slide.swiper-slide-next {
+        max-width: 220px;
+    }
+    #pc-ys-layout > div.world-exploration-block.world-block > div.world-exploration > div > div.swiper-container.swiper.swiper-container-initialized.swiper-container-horizontal > div > div:nth-child(1) {
+        max-width: 220px;
+    }
+    #pc-ys-layout > div.world-exploration-block.world-block > div.world-exploration > div > div.swiper-container.swiper.swiper-container-initialized.swiper-container-horizontal > div > div:nth-child(2) {
+        max-width: 220px;
+    }
+    #pc-ys-layout > div.world-exploration-block.world-block > div.world-exploration > div > div.swiper-container.swiper.swiper-container-initialized.swiper-container-horizontal > div > div:nth-child(3) {
+        max-width: 220px;
+    }
+    #pc-ys-layout > div.world-exploration-block.world-block > div.world-exploration > div > div.swiper-container.swiper.swiper-container-initialized.swiper-container-horizontal > div > div:nth-child(4) {
+        max-width: 220px;
+    }
+    #pc-ys-layout > div.world-exploration-block.world-block > div.world-exploration > div > div.swiper-container.swiper.swiper-container-initialized.swiper-container-horizontal > div > div:nth-child(5) {
+        max-width: 220px;
+    }
+    #pc-ys-layout > div.world-exploration-block.world-block > div.world-exploration > div > div.swiper-container.swiper.swiper-container-initialized.swiper-container-horizontal > div > div:nth-child(6) {
+        max-width: 220px;
+    }
+        #pc-ys-layout > div.world-exploration-block.world-block > div.world-exploration > div > div.swiper-container.swiper.swiper-container-initialized.swiper-container-horizontal > div > div:nth-child(7) {
+        max-width: 220px;
+    }
+    
+    /* 캐릭터 목록 위치 수정 */    
+    #pc-ys-layout > div.pc-swiper-block-layout.swiper-block > div.pc-swiper-block-layout__content > div.container > div > div:nth-child(3) {
+        margin-right: 10px; margin-left: -1px;
+    }
+    #pc-ys-layout > div.pc-swiper-block-layout.swiper-block > div.pc-swiper-block-layout__content > div.container > div > div:nth-child(9) {
+        margin-right: 10px; margin-left: -1px;
+    }
+    #pc-ys-layout > div.pc-swiper-block-layout.swiper-block > div.pc-swiper-block-layout__content > div.container > div > div:nth-child(15) {
+        margin-right: 10px; margin-left: -1px;
+    }    
+    #pc-ys-layout > div.pc-swiper-block-layout.swiper-block > div.pc-swiper-block-layout__content > div.container > div > div:nth-child(21) {
+        margin-right: 10px; margin-left: -1px;
+    }
+    #pc-ys-layout > div.pc-swiper-block-layout.swiper-block > div.pc-swiper-block-layout__content > div.container > div > div:nth-child(27) {
+        margin-right: 10px; margin-left: -1px;
+    }
+    
+    /* 비경 전적 페이지 비율 수정 */
+    body > div.pc-root-layout > div:nth-child(3) > div > div > div > div.layout > main > div > div > div > div > div.van-tabs__content.van-tabs__content--animated {
+        width: 100%;
+    }
+}
