@@ -1,23 +1,22 @@
 /* ==UserStyle==
-@name           ±¸¸§
-@namespace      https://github.com/q20021410/hoyolab_customcss
+@name           2022. 7. 18. ì˜¤í›„ 4:30:09
+@namespace      github.com/openstyles/stylus
 @version        1.0.0
-@description    Modify the output ratio of the Hoyolab screen.
-@author         https://clsw.kr
-
+@description    A new userstyle
+@author         Me
 ==/UserStyle== */
 @-moz-document url-prefix("https://act.hoyolab.com/app/community-game-records-sea/index.html") {
     
-    /* È¨ÆäÀÌÁö ºñÀ² ¼öÁ¤ */
+    /* í™ˆí˜ì´ì§€ ë¹„ìœ¨ ìˆ˜ì • */
     body > div.pc-root-layout > div:nth-child(3) > div {
         max-width: 1500px;
     }
 
-    /* Ä³¸¯ÅÍ º¸À¯ Ç×¸ñ À§Ä¡ ¼öÁ¤ */    
+    /* ìºë¦­í„° ë³´ìœ  í•­ëª© ìœ„ì¹˜ ìˆ˜ì • */    
     #pc-ys-layout > div.pc-swiper-block-layout.swiper-block > div.pc-swiper-block-layout__content > div.container {
         width: 700px;
     }
-    /* Ä³¸¯ÅÍ Âø¿ë Àåºñ/¼ºÀ¯¹° À§Ä¡ ¼öÁ¤ */   
+    /* ìºë¦­í„° ì°©ìš© ì¥ë¹„/ì„±ìœ ë¬¼ ìœ„ì¹˜ ìˆ˜ì • */   
     #pc-ys-layout > div.world-exploration-block.world-block > div.world-exploration > div > div.swiper-container.swiper.swiper-container-initialized.swiper-container-horizontal > div > div.swiper-slide.swiper-slide-active {
         max-width: 250px;
     }
@@ -26,7 +25,7 @@
         width: 1200px;
     }
     
-    /* ¿ùµå Å½»çµµ ¹è³Ê À§Ä¡ ¼öÁ¤ */
+    /* ì›”ë“œ íƒì‚¬ë„ ë°°ë„ˆ ìœ„ì¹˜ ìˆ˜ì • */
     #pc-ys-layout > div.world-exploration-block.world-block > div.world-exploration > div > div.swiper-container.swiper.swiper-container-initialized.swiper-container-horizontal > div > div.swiper-slide.swiper-slide-active {
         max-width: 220px;
     }
@@ -55,7 +54,7 @@
         max-width: 220px;
     }
     
-    /* Ä³¸¯ÅÍ ¸ñ·Ï À§Ä¡ ¼öÁ¤ */    
+    /* ìºë¦­í„° ëª©ë¡ ìœ„ì¹˜ ìˆ˜ì • */    
     #pc-ys-layout > div.pc-swiper-block-layout.swiper-block > div.pc-swiper-block-layout__content > div.container > div > div:nth-child(3) {
         margin-right: 10px; margin-left: -1px;
     }
@@ -71,8 +70,19 @@
     #pc-ys-layout > div.pc-swiper-block-layout.swiper-block > div.pc-swiper-block-layout__content > div.container > div > div:nth-child(27) {
         margin-right: 10px; margin-left: -1px;
     }
-    
-    /* ºñ°æ ÀüÀû ÆäÀÌÁö ºñÀ² ¼öÁ¤ */
+     #pc-ys-layout > div.pc-swiper-block-layout.swiper-block > div.pc-swiper-block-layout__content > div.container > div > div:nth-child(33) {
+        margin-right: 10px; margin-left: -1px;
+    }
+        #pc-ys-layout > div.pc-swiper-block-layout.swiper-block > div.pc-swiper-block-layout__content > div.container > div > div:nth-child(39) {
+        margin-right: 10px; margin-left: -1px;
+    }
+    #pc-ys-layout > div.pc-swiper-block-layout.swiper-block > div.pc-swiper-block-layout__content > div.container > div > div:nth-child(45) {
+        margin-right: 10px; margin-left: -1px;
+    }
+    #pc-ys-layout > div.pc-swiper-block-layout.swiper-block > div.pc-swiper-block-layout__content > div.container > div > div:nth-child(51) {
+        margin-right: 10px; margin-left: -1px;
+    }
+    /* ë¹„ê²½ ì „ì  í˜ì´ì§€ ë¹„ìœ¨ ìˆ˜ì • */
     body > div.pc-root-layout > div:nth-child(3) > div > div > div > div.layout > main > div > div > div > div > div.van-tabs__content.van-tabs__content--animated {
         width: 100%;
     }
